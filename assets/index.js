@@ -1,21 +1,8 @@
-const video = document.querySelector("video");
-const button = document.querySelector("button")
+import MediaPlayer from "./MediaPlayer "
 
-function MediaPlayer(config) {
-  this.media = config.el
-}
-MediaPlayer.prototype.pause = function() {
-    this.media.pause()
-};
-  MediaPlayer.prototype.play = function() {
-    this.media.play()
-};
+const video = document.querySelector('video')
+const player = new MediaPlayer({ el:video})
 
-MediaPlayer.prototype.togglePlay = function() {
-  if (this.media.paused) {
-    this.play();
-  } else {
-    ehis.pause();
-  }
-};
+const button = document.querySelector('button')
+button.onclick = () => player.togglePlay();
 
