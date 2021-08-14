@@ -1,16 +1,25 @@
 {
-  "name":  "starphy-media-player",
-  "version":  "1.0.0",
-  "description":  "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
-  "license":  "MIT",
-  "author":  "César Augusto Barco <augustopayza@gmail.com>",
-  "keywords":  [
-   "platzi"
-   ],
-  "scripts":  {
-   "start":  "live-server"
-   },
-  "devDependencies":  {
-       "live-server":  "^1.2.1"
-     }
-  }
+  "name": "starphy-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "César Augusto Barco <augustopayza@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L410N3L/starphy-video.git"
+  },
+  "bugs": {
+    "url": "https://github.com/L410N3L/starphy-video/issues"
+  },
+  "homepage": "https://github.com/L410N3L/starphy-video#readme"
+}
